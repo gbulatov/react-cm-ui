@@ -174,7 +174,8 @@ Radio.propTypes = {
     align: PropTypes.oneOf(alignEnums),
     checked: PropTypes.oneOfType([
         PropTypes.bool,
-        PropTypes.number
+        PropTypes.number,
+        PropTypes.array
     ]),
     className: PropTypes.string,
     disabled: PropTypes.bool,
